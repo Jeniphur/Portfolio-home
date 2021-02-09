@@ -37,9 +37,9 @@
 }
 
 .absolute {
-  margin-top: 27px;
+  position: absolute;
   margin-left: 122px;
-  background-image: url('avatar-purple-bg.svg');
+  top: 50px;
 }
 
 .avatar{
