@@ -15,6 +15,7 @@
     </div>
     <div class="absolute dropshadow">
         <a href="#Work"><img src="avatar-purple.svg" alt="avatar" width="148.14" height="155"></a>
+        <div class="avatar"></div>
     </div>
   </section>
 
@@ -22,23 +23,27 @@
 <body>
   <section class="body">
     <div class="hero">
-      <h1 class="header center">I'm Jennifer Quach</h1>
-      <h2 class="subheader center textHeight1">UX/UI Designer</h2>
-      <p class= "paragraph center textHeight2">I enjoy finding simple solutions to complex problems</p>
+      <h1 class="header center textHeight3">I'm Jennifer Quach</h1>
+      <h2 class="subheader center" id="iAm">UX/UI Designer</h2>
+      <p class= "paragraph center">I enjoy finding simple solutions to complex problems</p>
       <button class="button paragraph center bold dropshadow">About Me</button>
     </div>
 
     <div class="myWork">
       <h2 class="subheader2 center">My Work</h2>
       <div class="box1 dropshadow">
-        <div id="htrLogo"></div>
-        <div id="htrPrototype"></div>
+          <div id="htrLogo"></div>
+          <div id="htrPrototype"></div>
+          <div class="overlay"><h2 class="subheader workText">A website redesign of a non-profit <br>organization that brings the organization’s<br> goals to life</h2>
+          </div>
       </div>
 
       <div class="box2 dropshadow">
         <div id="bbLogo"></div>
         <div id="bbPrototype1"></div>
         <div id="bbPrototype2"></div>
+        <div class="overlay"><h2 class="subheader workText">A bug identifying app that educates people<br> about bugs near them</h2>
+        </div>
       </div>
 
       <div class="box3 dropshadow">
@@ -46,6 +51,8 @@
         <div id="ttText"></div>
         <div id="ttPrototype1"></div>
         <div id="ttPrototype2"></div>
+        <div class="overlay"><h2 class="subheader workText">A trip planning app that helps people<br> efficiently plan their vacation and stay<br> within their budget </h2>
+        </div>
       </div>
     </div>
 
@@ -62,6 +69,13 @@
         2021</p>
     </div>
  </section>
+
+ <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<script src="index.js"></script>
+
 </body>
 </html>
     
