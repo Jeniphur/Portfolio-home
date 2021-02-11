@@ -416,13 +416,11 @@
   cursor: pointer;
 }
 
-
-
 /*footer*/
 .footer{
   background-color: #CBD2F5;
   font-family: 'Lato';
-  height: 100px;
+  height: 135px;
   width: 100%;
   padding-bottom: 15px;
   display: flex;
@@ -431,24 +429,20 @@
   position: relative;
 }
       
-.cimages{
-  justify-content: center;
-  align-items: center;
-  width: auto;
+.icons{
+  padding-right: 30px;
+  padding-left:30px;
 }
-      
-.fimages{
-  display: inline-block;
-  justify-content: center;
-  align-items: center;
-  padding-right: 12.5px;
-  padding-left: 12.5px;
+
+.padding{
+  padding-right: 30px;
+  padding-bottom: 15px;
 }
       
 .copyright{
   position: absolute;
   display: inline-block;
-  padding-top: 65px;
+  padding-top: 100px;
 }
       
 /*Media Breaks*/
