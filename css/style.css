@@ -43,7 +43,7 @@
 }
 
 .avatar{
-  background-image: url('avatar-red-bg.svg');
+  background-image: url("../images/avatar-red-bg.svg");
   background-repeat: no-repeat;
   position: absolute;
   top: 0;
@@ -113,7 +113,7 @@
 #htrLogo{
   grid-area: htrLogo;
   align-self: center;
-  background-image: url("Happy-Tails-Logo.png");
+  background-image: url("../images/Happy-Tails-Logo.png");
   background-repeat: no-repeat;
   background-position: 0px;
   background-size: contain;
@@ -125,7 +125,7 @@
   grid-area: htrPrototype;
   align-self: center;
   margin-left: -6%;
-  background-image: url("Happy-Tails-Desk-phone.png");
+  background-image: url("../images/Happy-Tails-Desk-phone.png");
   background-repeat: no-repeat;
   background-position: 0px;
   background-size: contain;
@@ -154,7 +154,7 @@
 #bbLogo{
   grid-area: bbLogo;
 
-  background-image: url("Bug-Byte-Logo.png");
+  background-image: url("../images/Bug-Byte-Logo.png");
   background-repeat: no-repeat;
   background-position: 0px;
   background-size: contain;
@@ -164,7 +164,7 @@
 
 #bbPrototype1{
   grid-area: bbPrototype1;
-  background-image: url("Bug-Byte-Phone-gallery.png");
+  background-image: url("../images/Bug-Byte-Phone-gallery.png");
   background-repeat: no-repeat;
   background-position: 0px;
   background-size: contain;
@@ -176,7 +176,7 @@
 
 #bbPrototype2{
   grid-area: bbPrototype2;
-  background-image: url("Bug-Byte-Phone-bug-info.png");
+  background-image: url("../images/Bug-Byte-Phone-bug-info.png");
   background-repeat: no-repeat;
   background-position: 0px;
   background-size: contain;
@@ -194,7 +194,7 @@
   margin-bottom: 30px;
   padding-left: 10%;
   padding-right: 10%;
-  background-image: url(Thrifty-Trip-BG.jpg);
+  background-image: url("../images/Thrifty-Trip-BG.jpg");
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
@@ -212,7 +212,7 @@
   grid-area: ttLogo;
   margin-left: 25%;
   margin-top: 10%;
-  background-image: url("Airplane-Logo.svg");
+  background-image: url("../images/Airplane-Logo.svg");
   background-repeat: no-repeat;
   background-position: 0px;
   background-size: contain;
@@ -222,7 +222,7 @@
 
 #ttText{ 
   grid-area: ttText;
-  background-image: url("Thrifty-Trip.png");
+  background-image: url("../images/Thrifty-Trip.png");
   background-repeat: no-repeat;
   background-position: 0px;
   background-size: contain;
@@ -232,7 +232,7 @@
 
 #ttPrototype1{
   grid-area: ttPrototype1;
-  background-image: url("Thrifty-Trip-Phone-plans.png");
+  background-image: url("../images/Thrifty-Trip-Phone-plans.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 0 -100px;
@@ -244,7 +244,7 @@
 #ttPrototype2{
   grid-area: ttPrototype2;
   margin-right: 15%;
-  background-image: url("Thrifty-Trip-Phone-home.png");
+  background-image: url("../images/Thrifty-Trip-Phone-home.png");
   background-repeat: no-repeat;
   background-position: 0px;
   background-size: contain;
